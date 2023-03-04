@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="time__display"> Поточний час:
+    <div class="time">
+        <div class="time__display--hour"></div>
+        <div class="time__display--minutes"></div>
+        <div class="time__display--seconds"></div>
+    </div>
+    <form>
+        <label class="change-hour" for="change-hour">
+            Кількість годин на яку маємо змінити час:
+            <input id="change-hour" type="number" placeholder="годин"/>
+        </label>
+        <label class="change-minutes" for="change-minutes">
+            Кількість хвилин на яку маємо змінити час:
+            <input id="change-minutes" type="number" placeholder="хвилин"/>
+        </label>
+        <label class="change-seconds" for="change-seconds">
+            Кількість секунд на яку маємо змінити час:
+            <input id="change-seconds" type="number" placeholder="секунд"/>
+        </label>
+        <button type="submit" class="btn">Змінити</button>
+    </form>
+    <div class="new-time time">
+        <div class="new-hour"></div>
+        <div class="new-minute"></div>
+        <div class="new-second"></div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

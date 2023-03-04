@@ -1,0 +1,44 @@
+body {
+    background-color: darkslateblue;
+}
+.time__display {
+    font-size: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #ffffff;
+    flex-direction: column;
+}
+.time {
+    display: flex;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: gray;
+}
+form input {
+    margin-bottom: 15px;
+}
+form .btn {
+    font-size: 16px;
+    margin-top: 15px;
+    color: white;
+    height: 40px;
+    border: 1px solid greenyellow;
+    background-color: green;
+}
+.time__display--hour {
+    color: chartreuse;
+}
+.time__display--minutes {
+    color: aqua;
+}
+.time__display--seconds {
+    color: aquamarine;
+}
+.new-time {
+    color: red;
+}
